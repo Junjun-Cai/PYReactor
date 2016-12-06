@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SYSTEM>
+    <Node>
+        <AllocServer>
+            <Server svid="1" level="101" ip="192.168.204.153"  port="7201"/>
+            <Server svid="2" level="102" ip="192.168.204.153"  port="7202"/>
+            <Server svid="3" level="103" ip="192.168.204.153"  port="7203"/>
+            <Server svid="4" level="104" ip="192.168.204.153"  port="7204"/>
+            <Server svid="5" level="105" ip="192.168.204.153"  port="7205"/>
+            <Server svid="6" level="106" ip="192.168.204.153"  port="7206"/>
+            <Server svid="7" level="201" ip="192.168.204.153"  port="7211"/>
+            <Server svid="8" level="202" ip="192.168.204.153"  port="7212"/>
+            <Server svid="9" level="203" ip="192.168.204.153"  port="7213"/>
+            <Server svid="10" level="204" ip="192.168.204.153"  port="7214"/>
+            <Server svid="11" level="205" ip="192.168.204.153"  port="7215"/>
+            <Server svid="12" level="206" ip="192.168.204.153"  port="7216"/>
+            <Server svid="13" level="1"   ip="192.168.204.153" port="7253"/>
+            <Server svid="14" level="601" ip="192.168.204.153" port="7250"/>
+            <Server svid="15" level="602" ip="192.168.204.153" port="7251"/>
+            <Server svid="16" level="603" ip="192.168.204.153" port="7252"/>
+            <Server svid="17" level="604" ip="192.168.204.153" port="7253"/>
+            <Server svid="18" level="605" ip="192.168.204.153" port="7254"/>
+            <Server svid="19" level="606" ip="192.168.204.153" port="7255"/>
+        </AllocServer>
+        <test>
+            <test1 s="1"/>
+        </test>
+        <FriendServer>
+            <Server svid="1" ip="192.168.204.153" port="4435"/>
+            <Server svid="2" ip="192.168.204.153" port="4436"/>
+            <Server svid="3" ip="192.168.204.153" port="4437"/>
+        </FriendServer>
+        <Test>
+            <rank>43434</rank>
+            <rank>434dsfsd34</rank>
+            <rank>434sdf34</rank>
+            <rank>43sad434</rank>
+        </Test>
+        <BroadcastServer>
+            <Server svid="0" ip="192.168.204.153" port="12312"/>
+        </BroadcastServer>
+        <TaskServer>
+            <Server svid="0" ip="192.168.204.153" port = "4433"/>
+        </TaskServer>
+        <PHPAgent>
+            <Server svid="0" ip="192.168.204.153" port="4331"/>
+        </PHPAgent>
+        <mt_redis ip="192.168.204.153"   port="4500"/>
+        <Flag>
+            <Friend open="1" l="2"/>
+            <Task open="0"/>
+            <PHPAgent open="1"/>
+        </Flag>
+        <CmdList>
+            <Cmd private_level="1"/><!--0x0116-->
+        </CmdList>
+        <UserServer>
+            <Server svid="0" ip="192.168.204.153" port="7030" />
+            <Server svid="1" ip="192.168.204.153" port="7031" />
+            <Server svid="2" ip="192.168.204.153" port="7032" />
+            <Server svid="3" ip="192.168.204.153" port="7033" />
+            <Server svid="4" ip="192.168.204.153" port="7034" />
+            <Server svid="5" ip="192.168.204.153" port="7035" />
+            <Server svid="6" ip="192.168.204.153" port="7036" />
+            <Server svid="7" ip="192.168.204.153" port="7037" />
+            <Server svid="8" ip="192.168.204.153" port="7038" />
+            <Server svid="9" ip="192.168.204.153" port="7039" />
+        </UserServer>
+    </Node>
+</SYSTEM>
